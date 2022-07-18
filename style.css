@@ -1,0 +1,78 @@
+body {
+    background: #0c192c;
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+}
+
+.product-container {
+    background: #15273f;
+    display: inline;
+    max-width: 380px;
+    max-height: 650px;
+    margin: 7rem auto;
+    border-radius: .625rem;
+}
+
+.product-image {
+    margin: 2rem 1rem 0 1rem;
+    max-width: 320px;
+    max-height: 610px;
+    border-radius: .625rem;
+}
+
+.product-title {
+    color: #f9ffff;
+    font-size: 1.125rem;
+    padding: .6rem 0 0 1.2rem;
+}
+
+.product-description {
+    color: #516588;
+    padding: .1rem 0 0 1.2rem;
+    font-size: 1rem;
+}
+
+.icons-container{
+    display: flex;
+    margin-bottom: 1rem;   
+}
+
+.price-icon {
+    padding: 0 .375rem 0 1.125rem;
+}
+
+.product-price {
+    color: #29ffff;
+    margin-right: 7.5rem;
+}
+
+.availability-icon {
+    padding-right: .375rem;
+}
+
+.product-availability {
+    color: #8fa4c3;
+}
+
+.product-footer {
+    display: flex;
+    border-top: 1px solid #2e4058;
+}
+
+.profile-image {
+    display: flex;
+    margin: 2rem 1rem 1rem;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.profile-name {
+    margin-top: 2.5rem;
+    color: #7e92b5;
+}
+
+.profile-name a {
+    color: #f7ffff;
+    text-decoration: none;
+    cursor: default;
+}
